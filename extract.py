@@ -16,7 +16,7 @@ def find_data(data):
                     if len(phone_record) > 3:
                         phone_record[3] = f'Описание: {phone_record[3]}'
 
-                        data_found.append(phone_record)
+                    data_found.append(phone_record)
         view.show_ext_data(data_found)
 
 def full_output():
