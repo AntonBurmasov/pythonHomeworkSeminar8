@@ -3,8 +3,6 @@ import add_to_db
 import extract
 
 
-
-
 def phone_book():
     menu = 0
     while menu != 4:
@@ -19,6 +17,3 @@ def phone_book():
         elif menu == 3:
             lastname = view.search_data()
             extract.find_data(lastname)
-
-
-
